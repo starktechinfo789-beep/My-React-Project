@@ -25,13 +25,13 @@ export default function Navbar() {
 
   const linkStyle = (id) =>
     active === id
-      ? "text-blue-400 font-bold"
+      ? "text-yellow-400 font-bold"
       : "text-white";
 
   const handleLinkClick = () => setMenuOpen(false);
 
   return (
-    <nav className="w-full bg-black text-white p-4 fixed top-0 left-0 z-50">
+<nav className="w-full bg-gray-400 text-white py-6 px-4 fixed top-0 left-0 z-50">
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 justify-center">
